@@ -1,0 +1,21 @@
+# Never commit live secrets or captured evidence
+engagements/*/evidence/
+engagements/*/loot/
+loot/
+*.jwt
+*.token
+*.pcap
+*.pcapng
+*.der
+*.pem
+config.json
+electroneg.csv
+gitleaks.json
+*.log
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# keep the template engagement scaffold
+!engagements/_template/
